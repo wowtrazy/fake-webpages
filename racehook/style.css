@@ -1,0 +1,135 @@
+/* style.css */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 575px;
+    gap: 50px;
+}
+
+main .left {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 400px;
+
+}
+
+.left h1 {
+    color: rgb(27, 120, 219);
+    font-size: 50px;
+    margin: 0;
+}
+
+main .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgb(186, 186, 186);
+}
+
+form a:link, a:visited {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+
+form a:hover, a:active {
+    color: rgb(27, 120, 219);
+}
+
+input {
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    border:1px solid rgb(108, 108, 108);
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.log-in {
+    background-color: rgb(27, 120, 219);
+    border-style: none;
+    border-radius: 10px;
+    width: 322px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.log-in:hover {
+    background-color: rgb(25, 111, 203);
+}
+
+.create {
+    background-color: rgb(36, 183, 61);
+    border-style: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.create:hover {
+    background-color: rgb(32, 162, 53);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 12px;
+    color: rgb(108, 108, 108);
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+}
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 12px;
+    list-style: none;
+}
+
+ul a:link, a:visited {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+
+ul a:hover, a:active {
+    color: rgb(27, 120, 219);
+}
