@@ -1,0 +1,95 @@
+/* style.css */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #eee;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+header .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+header .right {
+
+}
+
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    background-color: black;
+    height: 2px;
+    width: 30px;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 8px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+}
+
+main .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    box-shadow: 1px 1px 5px rgb(216, 216, 216);
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
